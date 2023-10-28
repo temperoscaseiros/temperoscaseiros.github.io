@@ -70,7 +70,7 @@ var pysOptions = {"staticEvents":{"facebook":{"init_event":[{"delay":0,"type":"s
                         <div class="elementor-widget-wrap elementor-element-populated"> 
                             <div class="elementor-element elementor-element-54c092b9 elementor-widget elementor-widget-image" data-id="54c092b9" data-element_type="widget" data-widget_type="image.default"> 
                                 <div class="elementor-widget-container"> 
-                                    <img decoding="async" fetchpriority="high" width="250" height="250" src="Design-sem-nome-2023-05-05T235432.087-300x300.png" class="attachment-medium size-medium wp-image-1256" alt="" srcset="Design-sem-nome-2023-05-05T235432.087-300x300.png 300w, Design-sem-nome-2023-05-05T235432.087-150x150.png 150w, Design-sem-nome-2023-05-05T235432.087-300x300.png 500w" sizes="(max-width: 300px) 100vw, 300px">
+                                    <img decoding="async" fetchpriority="high" width="250" height="250" src="Design-sem-nome-2023-05-05T235432.087-150x150.png" class="attachment-medium size-medium wp-image-1256" alt="" srcset="Design-sem-nome-2023-05-05T235432.087-300x300.png 300w, Design-sem-nome-2023-05-05T235432.087-150x150.png 150w, Design-sem-nome-2023-05-05T235432.087-300x300.png 500w" sizes="(max-width: 300px) 100vw, 300px">
                                 </div>
                             </div>                             
                             <div class="elementor-element elementor-element-26f912f2 elementor-widget elementor-widget-heading" data-id="26f912f2" data-element_type="widget" data-widget_type="heading.default"> 
@@ -728,9 +728,33 @@ para garantir seu acesso com</h2>
         <script type="text/javascript" src="https://cdn1.123tp.net/f82510e06f994523bf98f711fc83c182/js/core.min.js" id="jquery-ui-core-js"></script>         
         <script id="elementor-frontend-js-before" type="text/javascript">
 var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Compartilhar no Facebook","shareOnTwitter":"Compartilhar no Twitter","pinIt":"Fixar","download":"Baixar","downloadImage":"Baixar imagem","fullscreen":"Tela cheia","zoom":"Zoom","share":"Compartilhar","playVideo":"Reproduzir v\u00eddeo","previous":"Anterior","next":"Pr\u00f3ximo","close":"Fechar"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Celular em modo retrato","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Celular em modo paisagem","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},"version":"3.13.3","is_static":false,"experimentalFeatures":{"e_dom_optimization":true,"e_optimized_assets_loading":true,"a11y_improvements":true,"additional_custom_breakpoints":true,"hello-theme-header-footer":true,"landing-pages":true},"urls":{"assets":"https:\/\/institutoedunova.org\/wp-content\/plugins\/elementor\/assets\/"},"swiperClass":"swiper-container","settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description","hello_header_logo_type":"title","hello_footer_logo_type":"logo"},"post":{"id":1253,"title":"Tempero%20Caseiro%20%E2%80%93%20Instituto%20Edunova","excerpt":"","featuredImage":false}};
+       
 </script>         
         <script type="text/javascript" src="https://cdn1.123tp.net/f82510e06f994523bf98f711fc83c182/js/frontend.min.js" id="elementor-frontend-js"></script>         
-        <script async="true" src="https://cdn1.123tp.net/js/123global.js"></script>         
+        <script async="true" src="https://cdn1.123tp.net/js/123global.js"></script>
+        <script>
+    let prefix = ["https://pay.kiwify.com.br"];
+
+function getParams() {
+    let t = "",
+        e = window.top.location.href,
+        r = new URL(e);
+    if (null != r) {
+        let a = r.searchParams.get("utm_source"),
+            n = r.searchParams.get("utm_medium"),
+            o = r.searchParams.get("utm_campaign"),
+            m = r.searchParams.get("utm_term"),
+            c = r.searchParams.get("utm_content"); - 1 !== e.indexOf("?") && (t = `&sck=${a}|${n}|${o}|${m}|${c}`), console.log(t)
+    }
+    return t
+}! function() {
+    var t = new URLSearchParams(window.location.search);
+    t.toString() && document.querySelectorAll("a").forEach(function(e) {
+        for (let r = 0; r < prefix.length; r++) - 1 !== e.href.indexOf(prefix[r]) && (-1 === e.href.indexOf("?") ? e.href += "?" + t.toString() + getParams() : e.href += "&" + t.toString() + getParams())
+    })
+}();
+console.log('%cScript de rastreamento de vendas desenvolvido pela Comunidade NOD - Dericson Calari e Samuel Choairy', 'font-size:20px;color:yellow;');
+</script>
     </body>
 </html>
 <!-- WP Fastest Cache file was created in 0.75793099403381 seconds, on 05-09-23 9:23:25 -->
